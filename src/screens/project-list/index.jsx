@@ -1,5 +1,5 @@
 import { List } from './list';
-import { SearchPanel     } from './search-panel';
+import { SearchPanel } from './search-panel';
 
 export const ProjectListScreen = () => {
   return (
@@ -9,4 +9,3 @@ export const ProjectListScreen = () => {
     </div>
   );
 };
- 
