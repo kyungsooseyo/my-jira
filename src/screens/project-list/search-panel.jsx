@@ -21,7 +21,8 @@ export const SearchPanel = () => {
         value={param.name}
         onChange={(evt) =>
           setParam({
-            ...param, 
+            ...param,
+            name: evt.target.value,
           })
         }
       ></input>
@@ -34,7 +35,7 @@ export const SearchPanel = () => {
           })
         }
       >
-        <option value={''}></option>
+        <option value={''}>负责人</option>
         {users.map((user) => (
           <option value={user.id}>{user.name}</option>
         ))}
