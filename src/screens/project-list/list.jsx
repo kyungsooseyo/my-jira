@@ -1,3 +1,3 @@
-export const List = () => {
+export const List = ()         => {
   return <table></table>;
 };
